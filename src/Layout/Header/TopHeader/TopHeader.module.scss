@@ -1,0 +1,18 @@
+.box {
+    font-size: 12px;
+    position: absolute;
+    display: flex;
+    top: 0px;
+    right: 0px;
+    color: Blue;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 0 0 0 50px;
+    .title {
+        padding-left: 100px;
+
+        &:nth-child(1) {
+            font-weight: bold;
+        }
+    }
+}

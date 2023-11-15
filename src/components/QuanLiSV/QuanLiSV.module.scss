@@ -1,0 +1,123 @@
+table {
+    width: 100%;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.title {
+    margin: 20px;
+}
+/* Style for table header */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Style for table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for table cells */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.info-lop {
+    display: flex;
+    justify-content: center;
+}
+/* Style for the "Thêm sinh viên" Button */
+.btn-them {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.btn-chon {
+    width: 100px;
+    padding: 0 10px;
+}
+.btn-them:hover {
+    background-color: #0056b3;
+}
+
+.ds-sinhvien Button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ds-sinhvien Button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the "Xóa" Button (different color) */
+.ds-sinhvien Button.delete {
+    background-color: #ff0000;
+}
+
+.ds-sinhvien Button.delete:hover {
+    background-color: #cc0000;
+}
+
+/* QuanLiSV.module.scss */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s;
+}
+
+.pagination li.active {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.pagination li:hover {
+  background-color: #ddd;
+}
+
+/* Optional: Style for previous and next buttons */
+.pagination .previous,
+.pagination .next {
+  margin: 0 5px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.pagination .previous:hover,
+.pagination .next:hover {
+  background-color: #217dbb;
+}
+.active{
+    background-color: #0056b3;
+    // width: 300px;
+}

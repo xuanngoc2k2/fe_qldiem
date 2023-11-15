@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.menu-item {
+    color: #444 !important;
+    padding: 13px 20px;
+    font-weight: bold;
+
+    &:hover {
+        background-color: #0072bc !important;
+    }
+}

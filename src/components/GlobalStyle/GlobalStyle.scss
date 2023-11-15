@@ -1,0 +1,17 @@
+@import 'normalize.css';
+:root {
+    --primary: #56a4fe;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a[href] {
+    text-decoration: none;
+    color: #fff;
+}

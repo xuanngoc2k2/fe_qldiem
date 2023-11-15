@@ -1,0 +1,40 @@
+.container-footer {
+    min-height: 200px;
+    background-color: var(--primary);
+
+    .intro {
+        display: flex;
+        justify-content: center;
+    }
+    .address {
+        padding: 20px 30px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+
+        .title {
+            color: #fac601;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+    }
+    .desc {
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .follow {
+        width: 30%;
+    }
+    .map {
+        display: flex;
+    }
+    .map-iframe {
+        padding: 10px 20px;
+        border-radius: 50px;
+    }
+}
